@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Самусев Даниил — Портфолио</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Шапка ===== -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">СД<span>.</span></a>
+    <button class="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="index.html" class="active">Главная</a>
+      <a href="about.html">Обо мне</a>
+      <a href="projects.html">Проекты</a>
+      <a href="gallery.html">Галерея</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== Hero с фоном ===== -->
+<section class="hero hero-with-bg">
+  <div class="hero-overlay"></div>
+  <div class="hero-content" data-aos="fade-up">
+    <p class="hero-greeting">Привет 👋</p>
+    <h1>Я — <span class="accent">Самусев Даниил</span></h1>
+    <p class="hero-sub">Frontend-разработчик. Создаю адаптивные и интерактивные сайты.</p>
+    <div class="hero-actions">
+      <a href="projects.html" class="btn btn-primary">Мои проекты</a>
+      <a href="contacts.html" class="btn btn-outline">Связаться</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Навыки ===== -->
+<section class="section" data-aos="fade-up">
+  <h2 class="section-title">Мои навыки</h2>
+  <p class="section-sub">Технологии, которые использую в работе каждый день</p>
+
+  <div class="grid grid-3 skills-grid">
+    <article class="card skill-card">
+      <div class="skill-icon">
+        <img
+          src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?auto=format&fit=crop&w=200&q=80"
+          alt="HTML & CSS">
+      </div>
+      <h3>HTML &amp; CSS</h3>
+      <p>Семантичная вёрстка, Flexbox, Grid, адаптивность</p>
+      <div class="progress" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+        <span style="--w: 90%"></span>
+      </div>
+      <small class="skill-level">90%</small>
+    </article>
+
+    <article class="card skill-card">
+      <div class="skill-icon">
+        <img
+          src="https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?auto=format&fit=crop&w=200&q=80"
+          alt="JavaScript">
+      </div>
+      <h3>JavaScript</h3>
+      <p>DOM, события, интерактив, анимации</p>
+      <div class="progress" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <span style="--w: 75%"></span>
+      </div>
+      <small class="skill-level">75%</small>
+    </article>
+
+    <article class="card skill-card">
+      <div class="skill-icon">
+        <img
+          src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=200&q=80"
+          alt="Адаптивный дизайн">
+      </div>
+      <h3>Адаптивный дизайн</h3>
+      <p>Media Queries, гибкие единицы, mobile-first</p>
+      <div class="progress" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+        <span style="--w: 85%"></span>
+      </div>
+      <small class="skill-level">85%</small>
+    </article>
+  </div>
+</section>
+
+<!-- ===== Избранные проекты с фото ===== -->
+<section class="section" data-aos="fade-up">
+  <h2 class="section-title">Избранные работы</h2>
+  <div class="grid grid-3">
+    <a href="projects.html" class="card project-card">
+      <div class="project-cover">
+        <img
+          src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80"
+          alt="Интернет-магазин">
+      </div>
+      <div class="project-body">
+        <h3>Интернет-магазин</h3>
+        <p>Каталог с фильтрами и корзиной</p>
+      </div>
+    </a>
+    <a href="projects.html" class="card project-card">
+      <div class="project-cover">
+        <img
+          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80"
+          alt="Лендинг курсов">
+      </div>
+      <div class="project-body">
+        <h3>Лендинг курсов</h3>
+        <p>Промо-страница образовательной платформы</p>
+      </div>
+    </a>
+    <a href="projects.html" class="card project-card">
+      <div class="project-cover">
+        <img
+          src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80"
+          alt="Кулинарный блог">
+      </div>
+      <div class="project-body">
+        <h3>Кулинарный блог</h3>
+        <p>Рецепты с категориями и комментариями</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta" data-aos="zoom-in">
+  <h2>Готовы обсудить проект?</h2>
+  <p>Напишите мне — отвечу в течение дня</p>
+  <a href="contacts.html" class="btn btn-primary">Написать</a>
+</section>
+
+<!-- ===== Подвал ===== -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h4>Самусев Даниил</h4>
+      <p>Frontend-разработчик</p>
+    </div>
+    <div>
+      <h4>Навигация</h4>
+      <a href="index.html">Главная</a>
+      <a href="about.html">Обо мне</a>
+      <a href="projects.html">Проекты</a>
+      <a href="gallery.html">Галерея</a>
+      <a href="contacts.html">Контакты</a>
+    </div>
+    <div>
+      <h4>Соцсети</h4>
+      <a href="#">Telegram</a>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </div>
+  <p class="copyright">© 2026 Самусев Даниил. Все права защищены.</p>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Наверх">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
