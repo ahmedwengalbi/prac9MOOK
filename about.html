@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Обо мне — Портфолио</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">СД<span>.</span></a>
+    <button class="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="index.html">Главная</a>
+      <a href="about.html" class="active">Обо мне</a>
+      <a href="projects.html">Проекты</a>
+      <a href="gallery.html">Галерея</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section" data-aos="fade-up">
+  <h1 class="section-title">Обо мне</h1>
+
+  <div class="about-grid">
+    <div class="about-photo" data-aos="fade-right">
+      <img
+        class="avatar-img"
+        src="https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?auto=format&fit=crop&w=600&q=80"
+        alt="Самусев Даниил">
+    </div>
+
+    <div class="about-text" data-aos="fade-left">
+      <h2>Кто я?</h2>
+      <p>Меня зовут Даниил. Я начинающий frontend-разработчик. Учусь создавать современные адаптивные сайты на HTML, CSS и JavaScript.</p>
+      <p>Люблю чистый код, продуманный дизайн и удобные интерфейсы. Постоянно развиваюсь и слежу за трендами веб-разработки.</p>
+    </div>
+  </div>
+
+  <h2 class="section-title" data-aos="fade-up">Образование</h2>
+  <table class="table" data-aos="fade-up">
+    <thead>
+      <tr>
+        <th>Годы</th>
+        <th>Учреждение</th>
+        <th>Специальность</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>2023–2027</td><td>Торайгыров Университет</td><td>Веб-разработка</td></tr>
+      <tr><td>2024</td><td>Онлайн-курсы HTML Academy</td><td>Frontend-разработка</td></tr>
+      <tr><td>2025</td><td>Практикум по JS</td><td>Интерактивные сайты</td></tr>
+    </tbody>
+  </table>
+
+  <h2 class="section-title" data-aos="fade-up">Опыт и качества</h2>
+  <ul class="list" data-aos="fade-up">
+    <li>✅ Адаптивная вёрстка (mobile-first, Flexbox, Grid)</li>
+    <li>✅ Работа с DOM и событиями JavaScript</li>
+    <li>✅ Опыт в GitHub Pages, Netlify, Vercel</li>
+    <li>✅ Умение работать в команде и с Git</li>
+    <li>✅ Внимание к деталям и UX</li>
+  </ul>
+
+  <!-- ===== Фото-полоса «Мой рабочий процесс» ===== -->
+  <h2 class="section-title" data-aos="fade-up">Мой рабочий процесс</h2>
+  <div class="process-gallery" data-aos="fade-up">
+    <figure>
+      <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=600&q=80" alt="Разработка">
+      <figcaption>Разработка</figcaption>
+    </figure>
+    <figure>
+      <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=600&q=80" alt="Работа с текстом">
+      <figcaption>Контент</figcaption>
+    </figure>
+    <figure>
+      <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80" alt="Дизайн">
+      <figcaption>Дизайн</figcaption>
+    </figure>
+    <figure>
+      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80" alt="Команда">
+      <figcaption>Команда</figcaption>
+    </figure>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div><h4>Самусев Даниил</h4><p>Frontend-разработчик</p></div>
+    <div>
+      <h4>Навигация</h4>
+      <a href="index.html">Главная</a>
+      <a href="about.html">Обо мне</a>
+      <a href="projects.html">Проекты</a>
+      <a href="gallery.html">Галерея</a>
+      <a href="contacts.html">Контакты</a>
+    </div>
+    <div><h4>Соцсети</h4><a href="#">Telegram</a><a href="#">GitHub</a><a href="#">LinkedIn</a></div>
+  </div>
+  <p class="copyright">© 2026 Самусев Даниил. Все права защищены.</p>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Наверх">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
